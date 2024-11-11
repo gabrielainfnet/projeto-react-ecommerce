@@ -1,0 +1,45 @@
+.register-page {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.register-page h1 {
+  margin-bottom: 20px;
+}
+
+.register-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-page form div {
+  margin-bottom: 15px;
+}
+
+.register-page form label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.register-page form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.save-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
